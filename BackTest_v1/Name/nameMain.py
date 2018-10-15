@@ -13,7 +13,6 @@ from BackTest_v1.Data.dataMain import HistoryData
 
 class OurName(object):
     def __init__(self):
-
         pass
 
     def backtest(self, start, end, symbol=None, capital_base=None, price_type='close',freq=None, commission=None,  slippage=None, initialize=None, handle_data=None, refresh_rate=1):
